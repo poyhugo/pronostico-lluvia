@@ -1,0 +1,12 @@
+{
+	"name": "LS_HTTP_PRON",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://smn.conagua.gob.mx/webservices/index.php?method=1",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
