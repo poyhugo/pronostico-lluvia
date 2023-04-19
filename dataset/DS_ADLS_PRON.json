@@ -1,0 +1,18 @@
+{
+	"name": "DS_ADLS_PRON",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADLS_PRON",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "RawZone",
+				"fileSystem": "proncont"
+			}
+		}
+	}
+}
