@@ -1,0 +1,81 @@
+{
+	"name": "DS_ADLS_PRON_JSON",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADLS_PRON",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "e3b73b0c-9bb4-4a05-a491-5bc3567492ed",
+				"folderPath": "RawZone",
+				"fileSystem": "proncont"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"cc": {
+					"type": "string"
+				},
+				"desciel": {
+					"type": "string"
+				},
+				"dh": {
+					"type": "string"
+				},
+				"dirvienc": {
+					"type": "string"
+				},
+				"dirvieng": {
+					"type": "string"
+				},
+				"dloc": {
+					"type": "string"
+				},
+				"ides": {
+					"type": "string"
+				},
+				"idmun": {
+					"type": "string"
+				},
+				"lat": {
+					"type": "string"
+				},
+				"lon": {
+					"type": "string"
+				},
+				"ndia": {
+					"type": "string"
+				},
+				"nes": {
+					"type": "string"
+				},
+				"nmun": {
+					"type": "string"
+				},
+				"prec": {
+					"type": "string"
+				},
+				"probprec": {
+					"type": "string"
+				},
+				"raf": {
+					"type": "string"
+				},
+				"tmax": {
+					"type": "string"
+				},
+				"tmin": {
+					"type": "string"
+				},
+				"velvien": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
